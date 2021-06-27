@@ -89,11 +89,10 @@ async def amireallyalive(alive):
             alive.chat_id, Tgx_IMG, caption=Tgx_caption, reply_to=reply_to_id
         )
     else:
-        await edit_or_reply(
+        await edit(
             alive,
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
             f"𝚃𝙶𝚇 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝚒𝚜 𝙰𝚕𝚒𝚟𝚎!!\n\n"
-
             f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
             f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
             f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
