@@ -98,7 +98,7 @@ async def amireallyalive(alive):
             f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
             f"**MY MASTER 👉 :** {mention}\n"
             f"**UPTIME:-** `{uptime}`\n"
-
+        )
  
 CmdHelp("alive").add_command(
   'alive', None, 'Check weather the bot is alive or not'
