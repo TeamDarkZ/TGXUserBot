@@ -77,18 +77,13 @@ async def amireallyalive(alive):
 
     if Tgx_IMG:
         Tgx_caption = f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-        
-        Tgx_caption += f" *Tgx 🦅 IS WORKING PERFECTLY\n\n*
-        Tgx_caption += f"      __**🔥 Tgx SYSTEM 🔥**__\n\n"
-        Tgx_caption += f"**BOT STATUS 👉 : ACTIVE **\n"
-        Tgx_caption += f"**BOT VERSION 👉 :**`{Tgxversion}`\n"
-        Tgx_caption += f"**TELETHON VERSION 👉 : ** `{version.__version__}`\n"
-        Tgx_caption += f"**UPTIME 👉 :** `{uptime}`\n"
-        Tgx_caption += f"**SUDO STATUS :** `{sudou}`\n"
-        Tgx_caption += f"**SUPPORT GROUP 👉 :** [🇮🇳• ᴊᴏɪɴ •🇮🇳](https://t.me/TgxSupport)**\n"
-        Tgx_caption += f"**MY MASTER 👉 :** {mention}\n"
-        Tgx_caption += f"**LICENSE]👉 :** [🇮🇳• Tgx •🇮🇳](https://github.com/don1900/Tgx/blob/main/LICENSE)**\n\n"
-        Tgx_caption += "[🔥REPO🔥](https://github.com/don1900/Tgx)"
+                      f"𝚃𝙶𝚇 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝚒𝚜 𝙰𝚕𝚒𝚟𝚎!!\n\n"
+
+                      f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
+                      f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
+                      f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
+                      f"**MY MASTER 👉 :** {mention}\n"
+                      f"**UPTIME:-** `{uptime}`\n"
 
         await alive.client.send_file(
             alive.chat_id, Tgx_IMG, caption=Tgx_caption, reply_to=reply_to_id
@@ -97,17 +92,14 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-            f" *Tgx 🦅 IS WORKING PERFECTLY\n\n*
-            f"      __**🔥 Tgx SYSTEM 🔥**__\n\n"
-            f"**BOT STATUS 👉 : ACTIVE **\n"
-            f"**BOT VERSION 👉 :**`{Tgxversion}`\n"
-            f"**TELETHON VERSION 👉 : ** `{version.__version__}`\n"
-            f"**UPTIME 👉 :** `{uptime}`\n"
-            f"**SUDO STATUS :** `{sudou}`\n"
-            f"**SUPPORT GROUP 👉 :** [🇮🇳• ᴊᴏɪɴ •🇮🇳](https://t.me/TgxSupport)**\n"
+            f"𝚃𝙶𝚇 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝚒𝚜 𝙰𝚕𝚒𝚟𝚎!!\n\n"
+
+            f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
+            f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
+            f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
             f"**MY MASTER 👉 :** {mention}\n"
-            f"**LICENSE]👉 :** [🇮🇳• Tgx •🇮🇳](https://github.com/don1900/Tgx/blob/main/LICENSE)**\n\n"
-            "[🔥REPO🔥](https://github.com/don1900/Tgx)"
+            f"**UPTIME:-** `{uptime}`\n"
+
  
 CmdHelp("alive").add_command(
   'alive', None, 'Check weather the bot is alive or not'
