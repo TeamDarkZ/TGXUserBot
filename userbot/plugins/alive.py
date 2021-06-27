@@ -82,7 +82,7 @@ async def amireallyalive(alive):
         Tgx_caption += f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
         Tgx_caption += f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
         Tgx_caption += f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
-        Tgx_caption += f"**MY MASTER 👉 :** {mention}\n"
+        Tgx_caption += f"**MY MASTER:- ** {mention}\n"
         Tgx_caption += f"**UPTIME:-** `{uptime}`\n"
 
         await alive.client.send_file(
@@ -96,7 +96,7 @@ async def amireallyalive(alive):
             f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
             f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
             f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
-            f"**MY MASTER 👉 :** {mention}\n"
+            f"**MY MASTER:- ** {mention}\n"
             f"**UPTIME:-** `{uptime}`\n"
         )
  
