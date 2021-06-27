@@ -76,9 +76,9 @@ async def amireallyalive(alive):
     reply_to_id = await reply_id(alive)
 
     if Tgx_IMG:
-        Tgx_caption += f"**{CUSTOM_ALIVE_TEXT}**\n\n"
+        Tgx_caption = f"**{CUSTOM_ALIVE_TEXT}**\n\n"
+        
         Tgx_caption += f"𝚃𝙶𝚇 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝚒𝚜 𝙰𝚕𝚒𝚟𝚎!!\n\n"
-
         Tgx_caption += f"𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙:- @TGXUserBotSupport\n"
         Tgx_caption += f"𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕:- @TGXUserBot\n"
         Tgx_caption += f"𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢:- @TheDarkZTech\n\n"
