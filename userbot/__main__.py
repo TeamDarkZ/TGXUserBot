@@ -54,8 +54,8 @@ import userbot._core
 
 print(f"""TgxBot IS ON!!! TgxBot VERSION :- {Tgxversion}
 JOIN OFFICIAL CHAT GROUP AND UPDATES CHANNEL
-OFFICIAL GROUP :- @TgxSupport
-OFFICIAL CHANNEL :- @Tgx_Updates
+OFFICIAL GROUP :- @TGXUserbotSupport
+OFFICIAL CHANNEL :- @TGXUserBot
 DO .alive OR .ping CHECK IF I'M ON!
 IF YOU FACE ANY ISSUE THEN ASK AT CHAT GROUP.""")
 
