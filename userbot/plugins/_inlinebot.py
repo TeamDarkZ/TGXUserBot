@@ -120,7 +120,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**𝚈𝙾𝚄𝚁** [ꜱᴋʏʜᴀᴡᴋ ᴜꜱᴇʀʙᴏᴛ](https://t.me/Tgx_Updates) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**𝚈𝙾𝚄𝚁** [Tgx ᴜꜱᴇʀʙᴏᴛ](https://t.me/TGXUserBot) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -129,7 +129,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_Tgx(event,
-              "**Tgx Help Menu**\n\n         **[(ℂ)𝕊𝕜𝕪ℍ𝕒𝕨𝕜™](t.me/Tgx_Updates)**", 5, link_preview=False
+              "**Tgx Help Menu**\n\n         **[(ℂ)𝕊𝕜𝕪ℍ𝕒𝕨𝕜™](https://t.me/TGXUserBot)**", 5, link_preview=False
             )
         else:
             Tgx_alert = "Bas laga liya dimaag? Itni der se tip tip kar rahe ho. Jao khud ka bana lo na yrr. 𝕊𝕜𝕪ℍ𝕒𝕨𝕜™"
