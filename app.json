@@ -1,6 +1,6 @@
 {
-  "name": "Tgx USERBOT",
-  "description": "ITS YOUR Tgx USERBOT MADE WITH LOVE... ❤ ENJOY ",
+  "name": " TGX USERBOT",
+  "description": "A Powerful Telethon Based UserBot Powered by The DarkZ Tech",
   "logo": "https://telegra.ph/file/ceb34557e0c13c5755756.jpg",
     "keywords": [
     "telegram",
@@ -23,7 +23,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is SkyHawk USER",
+      "description": "Fill your Full name. By default it is TGX USER",
       "value": "TGX User",
       "required": false
     },
@@ -39,7 +39,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "ITS TGX USERBOT! USERBOT OF YOUR DAD",
+      "value": "ITS TGX USERBOT!",
       "required": false
     },
     "PMPERMIT_PIC": {
@@ -49,7 +49,7 @@
     },
     "CUSTOM_PMPERMIT": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "DO NOT SPAM IN MY DM, OTHERWISE YOU WILL BLOCKED. I WILL REPLY YOU AFTER COME BACK ONLINE!",
+      "value": "DO NOT SPAM IN MY DM, OTHERWISE YOU WILL BLOCKED. I WILL REPLY YOU AFTER I COME BACK ONLINE!",
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
@@ -78,7 +78,7 @@
     },
     "SUDO_USERS": {
       "description": "Enter your friends user id to to give him bot sudo access",
-      "value": "801842409",
+      "value": "",
       "required": false
     },
     "SUDO_COMMAND_HAND_LER": {
